@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Uncategorized on This is Little Bee&#39;s Blog</title>
+    <title>Uncategorized on Little Bee&#39;s Blog</title>
     <link>https://littledancingbee.github.io/categories/uncategorized/</link>
-    <description>Recent content in Uncategorized on This is Little Bee&#39;s Blog</description>
+    <description>Recent content in Uncategorized on Little Bee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Apr 2018 08:30:06 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 15 Apr 2018 16:31:58 -0400</lastBuildDate>
     
 	<atom:link href="https://littledancingbee.github.io/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test</title>
-      <link>https://littledancingbee.github.io/post/test/</link>
-      <pubDate>Sun, 15 Apr 2018 08:30:06 -0400</pubDate>
+      <title>Newpost</title>
+      <link>https://littledancingbee.github.io/post/newpost/</link>
+      <pubDate>Sun, 15 Apr 2018 16:31:58 -0400</pubDate>
       
-      <guid>https://littledancingbee.github.io/post/test/</guid>
-      <description></description>
+      <guid>https://littledancingbee.github.io/post/newpost/</guid>
+      <description>豆豆是傻缺。鉴定完毕。反弹无效！</description>
     </item>
     
   </channel>
