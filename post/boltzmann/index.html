@@ -17,7 +17,7 @@
 
 
 <meta name="author" content="Little Bee" />
-  <meta name="description" content="Chap 1 1. Collision frequency in ideal gas: $$\nu=n\pi d^2 \overline{g}$$
+  <meta name="description" content="1. Collision frequency in ideal gas $$\nu=n\pi d^2 \overline{g}$$
 n is the number density, $\overline{g}$ is a mean relative velocity.
 
 " />
@@ -29,7 +29,7 @@ n is the number density, $\overline{g}$ is a mean relative velocity.
 
 
 
-<meta name="generator" content="Hugo 0.38.2" />
+<meta name="generator" content="Hugo 0.39" />
 
 
 <link rel="canonical" href="https://littledancingbee.github.io/post/boltzmann/" />
@@ -53,9 +53,7 @@ n is the number density, $\overline{g}$ is a mean relative velocity.
 
 
 <meta property="og:title" content="Chap 1" />
-<meta property="og:description" content="Chap 1
-
-1. Collision frequency in ideal gas:
+<meta property="og:description" content="1. Collision frequency in ideal gas
 
 $$\nu=n\pi d^2 \overline{g}$$
 
@@ -82,9 +80,7 @@ n is the number density, $\overline{g}$ is a mean relative velocity.
 
 
 <meta itemprop="name" content="Chap 1">
-<meta itemprop="description" content="Chap 1
-
-1. Collision frequency in ideal gas:
+<meta itemprop="description" content="1. Collision frequency in ideal gas
 
 $$\nu=n\pi d^2 \overline{g}$$
 
@@ -95,16 +91,14 @@ n is the number density, $\overline{g}$ is a mean relative velocity.
 
 <meta itemprop="datePublished" content="2018-04-14T18:04:29-04:00" />
 <meta itemprop="dateModified" content="2018-04-14T18:04:29-04:00" />
-<meta itemprop="wordCount" content="129">
+<meta itemprop="wordCount" content="143">
 
 
 
 <meta itemprop="keywords" content="Boltzman," />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Chap 1"/>
-<meta name="twitter:description" content="Chap 1
-
-1. Collision frequency in ideal gas:
+<meta name="twitter:description" content="1. Collision frequency in ideal gas
 
 $$\nu=n\pi d^2 \overline{g}$$
 
@@ -199,11 +193,9 @@ n is the number density, $\overline{g}$ is a mean relative velocity.
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#chap-1">Chap 1</a>
-<ul>
-<li><a href="#1-collision-frequency-in-ideal-gas">1. Collision frequency in ideal gas:</a></li>
+<li><a href="#1-collision-frequency-in-ideal-gas">1. Collision frequency in ideal gas</a></li>
 <li><a href="#2-maxwellian-velocity-distribution-function">2. Maxwellian Velocity Distribution Function</a></li>
-</ul></li>
+<li><a href="#3-simple-shear-flow">3. Simple shear flow</a></li>
 </ul>
 </nav>
   </div>
@@ -211,9 +203,7 @@ n is the number density, $\overline{g}$ is a mean relative velocity.
 
     
     <div class="post-content">
-      <h1 id="chap-1">Chap 1</h1>
-
-<h2 id="1-collision-frequency-in-ideal-gas">1. Collision frequency in ideal gas:</h2>
+      <h1 id="1-collision-frequency-in-ideal-gas">1. Collision frequency in ideal gas</h1>
 
 <p>$$\nu=n\pi d^2 \overline{g}$$</p>
 
@@ -221,17 +211,18 @@ n is the number density, $\overline{g}$ is a mean relative velocity.
 
 <p></p>
 
-<h2 id="2-maxwellian-velocity-distribution-function">2. Maxwellian Velocity Distribution Function</h2>
+<h1 id="2-maxwellian-velocity-distribution-function">2. Maxwellian Velocity Distribution Function</h1>
 
 <p>$$f(c_1,c_2,c_3)=n(\frac{m}{2\pi kT})^{\frac{3}{2}}e^{-mc^2/(2kT)}$$
-defines the probability of finding molecules having velocity ($c_1$,$c_2$,$c_3$)</p>
+defines the probability of finding molecules having velocity ($c_1$,$c_2$,$c_3$) &amp;</p>
+
+<p>$$F( c )dc=\int_0^{2\pi}\int_0^\pi n(\frac{m}{2\pi kT})^{\frac{3}{2}}
+e^{-mc^2/(2kT)}c^2\sin\theta d\theta d\varphi dc$$
+defines the probability of finding molecules having velocity magnitude c.</p>
 
 <p>$$\rho=mn=\int_{-\infty}^{\infty}mfdc_1dc_2dc_3$$</p>
 
 <p>$$\rho \epsilon=\frac{3}{2}nkT=\int_{-\infty}^{\infty}\frac{1}{2}mc^2fdc_1dc_2dc_3$$</p>
-
-<p>$$F( c )dc=\int_0^{2\pi}\int_0^\pi n(\frac{m}{2\pi kT})^{\frac{3}{2}}
-e^{-mc^2/(2kT)}c^2\sin\theta d\theta d\varphi dc$$</p>
 
 <p>$$=n(\frac{m}{2\pi kT})^\frac{3}{2}4\pi c^2e^{-mc^2/(2kT)}$$</p>
 
@@ -246,7 +237,7 @@ e^{-mc^2/(2kT)}c^2\sin\theta d\theta d\varphi dc$$</p>
 <p>and the mean quadratic velocity is
 $$c_{mq}=\sqrt{\overline{c^2}}=\frac{\int_0^{\infty}c^2F( c )dc}{\int_0^{\infty}F( c )dc}=\sqrt\frac{3kT}{m}$$</p>
 
-<p>The mean relative velocity, mean free time and mean free path:
+<p>The mean relative velocity, mean free time, and mean free path:
 $$\overline{g}=\sqrt{2}\overline{c}$$</p>
 
 <p>$$\tau=\frac{1}{4nd^2}\sqrt\frac{m}{\pi kT}$$</p>
@@ -265,7 +256,10 @@ $$p=2\int_0^{+\infty} \int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}mc_3^2f(c_
 
 <p>$$p=\frac{2\rho \epsilon}{3}$$</p>
 
-<p>cao ma bi</p>
+<h1 id="3-simple-shear-flow">3. Simple shear flow</h1>
+
+<p>Sheer viscocity coefficient
+$$\mu=\frac{2\sqrt{mkT}}{3\pi^\frac{3}{2}d^2}$$</p>
     </div>
 
     
